@@ -30,6 +30,11 @@
     padding: 1em 0;
 }
 
+.my-friends:hover {
+    scale: 1.2;
+    margin: 3em 0;
+}
+
 .video {
     display: flex;
     flex-direction: column;
