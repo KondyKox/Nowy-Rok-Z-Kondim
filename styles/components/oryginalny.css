@@ -1,0 +1,92 @@
+.oryginalny {
+    display: none;
+}
+
+.oryginalny__container-header {
+    padding: .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.oryginalny__container-header h2 {
+    font-size: var(--size-5xl);
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.oryginalny-memories {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.oryginalny-memory {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.oryginalny-memory__img {
+    padding: 1em 0;
+    border-radius: 10px;
+    max-width: 20em;
+}
+
+.oryginalny__footer-description {
+    padding: 1em;
+    max-width: 25ch;
+    margin: auto;
+    font-size: var(--size-lg);
+    text-align: justify;
+}
+
+/* md */
+@media (min-width: 768px) {
+    .oryginalny__container-header h2 {
+        font-size: var(--size-3xl);
+    }
+
+    .oryginalny-memory {
+        padding: 2em;
+    }
+
+    .oryginalny-memory__img {
+        max-width: 25em;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .oryginalny__container-header h2 {
+        font-size: var(--size-5xl);
+    }
+
+    .oryginalny-memory__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* to robi taki fajny zygzak */
+        grid-template-areas:
+            "image1 image2";
+        place-items: center;
+    }
+
+    .or__img1 {
+        grid-area: image1;
+        padding: 1em;
+    }
+
+    .or__img2 {
+        grid-area: image2;
+        padding: 1em;
+    }
+
+    .oryginalny__footer-description {
+        font-size: var(--size-xl);
+    }
+}
