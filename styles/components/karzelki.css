@@ -31,6 +31,7 @@
 .karzelki-memories__header {
     padding: 0 1em;
     font-size: var(--size-3xl);
+    text-align: center;
 }
 
 .karzelki-memories__description {

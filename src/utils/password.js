@@ -31,7 +31,7 @@ function generateSection() {
       wachowiakSection.style.display = "flex";
       summarySection.style.display = "flex";
       const heart = document.querySelector(".friends__wrapper");
-      heart.style.display = "none"
+      heart.style.display = "none";
       break;
     case "oryginalny":
       oryginalnySection.style.display = "flex";
@@ -40,6 +40,9 @@ function generateSection() {
     case "heina":
       heinaSection.style.display = "flex";
       summarySection.style.display = "flex";
+      break;
+    default:
+      alert("Ale we poprawne hasło wpisz");
       break;
   }
 }
