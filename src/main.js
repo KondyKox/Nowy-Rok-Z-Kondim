@@ -16,6 +16,8 @@ import "../styles/components/wachowiak.css";
 import "../styles/components/oryginalny.css";
 // Heina
 import "../styles/components/heina.css";
+// Przemysław
+import "../styles/components/przemyslaw.css";
 
 import "./utils/password.js";
 import lazyLoading from "./utils/lazy-loading";
