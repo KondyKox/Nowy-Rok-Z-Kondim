@@ -20,6 +20,8 @@ import "../styles/components/heina.css";
 import "../styles/components/przemyslaw.css";
 // Szczepan
 import "../styles/components/szczepan.css";
+// Lila & Kasia
+import "../styles/components/prokurator.css";
 
 import "./utils/password.js";
 import lazyLoading from "./utils/lazy-loading";

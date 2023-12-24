@@ -17,6 +17,7 @@ function generateSection() {
   const heinaSection = document.querySelector(".heina");
   const przemyslawSection = document.querySelector(".przemyslaw");
   const szczepanSection = document.querySelector(".szczepan");
+  const prokuratorSection = document.querySelector(".prokurator");
   const summarySection = document.querySelector(".summary");
 
   // Display section
@@ -49,6 +50,10 @@ function generateSection() {
       break;
     case "szczepan":
       szczepanSection.style.display = "flex";
+      summarySection.style.display = "flex";
+      break;
+    case "prokurator":
+      prokuratorSection.style.display = "flex";
       summarySection.style.display = "flex";
       break;
     default:
