@@ -18,6 +18,8 @@ import "../styles/components/oryginalny.css";
 import "../styles/components/heina.css";
 // Przemysław
 import "../styles/components/przemyslaw.css";
+// Szczepan
+import "../styles/components/szczepan.css";
 
 import "./utils/password.js";
 import lazyLoading from "./utils/lazy-loading";
