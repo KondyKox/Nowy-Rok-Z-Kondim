@@ -93,10 +93,10 @@
 
 .karzelki__footer-description {
     padding: 1em;
-    max-width: 60ch;
+    max-width: 30ch;
     margin: auto;
-    font-size: var(--size-lg);
-    text-align: justify;
+    font-size: var(--size-xl);
+    text-align: center;
 }
 
 /* md */
@@ -214,6 +214,6 @@
     }
 
     .karzelki__footer-description {
-        font-size: var(--size-xl);
+        font-size: var(--size-2xl);
     }
 }
