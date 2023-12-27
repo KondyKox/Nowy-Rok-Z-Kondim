@@ -18,48 +18,22 @@ function generateSection() {
   const przemyslawSection = document.querySelector(".przemyslaw");
   const szczepanSection = document.querySelector(".szczepan");
   const prokuratorSection = document.querySelector(".prokurator");
+  const secretSection = document.querySelector(".secret");
   const summarySection = document.querySelector(".summary");
 
   // Display section
-  switch (password) {
-    case "tj":
-      tjSection.style.display = "flex";
-      summarySection.style.display = "flex";
-      break;
-    case "karzelki":
-      karzelkiSection.style.display = "flex";
-      summarySection.style.display = "flex";
-      break;
-    case "wachowiak":
-      wachowiakSection.style.display = "flex";
-      summarySection.style.display = "flex";
-      const heart = document.querySelector(".friends__wrapper");
-      heart.style.display = "none";
-      break;
-    case "oryginalny":
-      oryginalnySection.style.display = "flex";
-      summarySection.style.display = "flex";
-      break;
-    case "heina":
-      heinaSection.style.display = "flex";
-      summarySection.style.display = "flex";
-      break;
-    case "przemyslaw":
-      przemyslawSection.style.display = "flex";
-      summarySection.style.display = "flex";
-      break;
-    case "szczepan":
-      szczepanSection.style.display = "flex";
-      summarySection.style.display = "flex";
-      break;
-    case "prokurator":
-      prokuratorSection.style.display = "flex";
-      summarySection.style.display = "flex";
-      break;
-    default:
-      alert("Ale we poprawne hasło wpisz");
-      break;
-  }
+  if (password === "tj") tjSection.style.display = "flex";
+  else if (password === "karzelki") karzelkiSection.style.display = "flex";
+  else if (password === "wachowiak") wachowiakSection.style.display = "flex";
+  else if (password === "oryginalny") oryginalnySection.style.display = "flex";
+  else if (password === "heina") heinaSection.style.display = "flex";
+  else if (password === "przemyslaw") przemyslawSection.style.display = "flex";
+  else if (password === "szczepan") szczepanSection.style.display = "flex";
+  else if (password === "prokurator") prokuratorSection.style.display = "flex";
+  else if (password === "łeł ał ju") secretSection.style.display = "flex";
+  else alert("Ale we poprawne hasło wpisz");
+
+  if (password !== "łeł ał ju") summarySection.style.display = "flex";
 }
 
 export default generateSection;

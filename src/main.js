@@ -22,6 +22,8 @@ import "../styles/components/przemyslaw.css";
 import "../styles/components/szczepan.css";
 // Lila & Kasia
 import "../styles/components/prokurator.css";
+// Secret
+import "../styles/components/secret.css";
 
 import "./utils/password.js";
 import lazyLoading from "./utils/lazy-loading";
