@@ -26,6 +26,6 @@ import "../styles/components/prokurator.css";
 import "../styles/components/secret.css";
 
 import "./utils/password.js";
-import lazyLoading from "./utils/lazy-loading";
+// import lazyLoading from "./utils/lazy-loading";
 
-lazyLoading();
+// lazyLoading();
