@@ -11,13 +11,15 @@
 }
 
 .szczepan__container-header h2 {
-    font-size: var(--size-5xl);
+    font-size: var(--size-2xl);
+    max-width: 30ch;
+    margin: auto;
     text-align: center;
     padding-bottom: 1em;
 }
 
 .szczepan__container-header img {
-    max-width: 20em;
+    max-width: 18em;
     margin: 1em;
 }
 

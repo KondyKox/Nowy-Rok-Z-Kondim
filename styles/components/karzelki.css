@@ -11,13 +11,15 @@
 }
 
 .karzelki__container-header h2 {
-    font-size: var(--size-5xl);
+    font-size: var(--size-2xl);
+    max-width: 20ch;
+    margin: auto;
     text-align: center;
     padding-bottom: 1em;
 }
 
 .karzelki__container-header img {
-    max-width: 20em;
+    max-width: 18em;
 }
 
 .karzelki-memories {
@@ -30,14 +32,14 @@
 
 .karzelki-memories__header {
     padding: 0 1em;
-    font-size: var(--size-3xl);
+    font-size: var(--size-xl);
     text-align: center;
 }
 
 .karzelki-memories__description {
     padding: 1em;
-    font-size: var(--size-md);
-    max-width: 60ch;
+    font-size: var(--size-base);
+    max-width: 30ch;
     margin: auto;
 }
 
@@ -74,28 +76,28 @@
 }
 
 .karzelki-memory__description {
-    font-size: var(--size-md);
-    max-width: 60ch;
+    font-size: var(--size-base);
+    max-width: 30ch;
     margin: 1rem auto;
 }
 
 .karzelki-memory__img {
     padding: 1em 0;
     border-radius: 10px;
-    max-width: 20em;
+    max-width: 18em;
 }
 
 .karzelki-memory__video {
     padding: 1em 0;
     border-radius: 10px;
-    max-width: 20em;
+    max-width: 18em;
 }
 
 .karzelki__footer-description {
     padding: 1em;
     max-width: 30ch;
     margin: auto;
-    font-size: var(--size-xl);
+    font-size: var(--size-base);
     text-align: center;
 }
 

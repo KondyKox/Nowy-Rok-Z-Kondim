@@ -11,13 +11,15 @@
 }
 
 .przemyslaw__container-header h2 {
-    font-size: var(--size-5xl);
+    font-size: var(--size-2xl);
+    max-width: 30ch;
+    margin: auto;
     text-align: center;
     padding-bottom: 1em;
 }
 
 .przemyslaw__container-header img {
-    max-width: 20em;
+    max-width: 18em;
     padding: 1em;
 }
 

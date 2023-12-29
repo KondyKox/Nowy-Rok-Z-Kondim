@@ -11,13 +11,14 @@
 }
 
 .heina__container-header h2 {
-    font-size: var(--size-5xl);
+    font-size: var(--size-2xl);
+    max-width: 20ch;
     text-align: center;
     padding-bottom: 1em;
 }
 
 .heina__container-header img {
-    max-width: 20em;
+    max-width: 18em;
 }
 
 .heina__footer-description {

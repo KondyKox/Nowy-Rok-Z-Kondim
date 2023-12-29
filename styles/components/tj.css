@@ -11,13 +11,14 @@
 }
 
 .tj__container-header h2 {
-    font-size: var(--size-5xl);
+    font-size: var(--size-2xl);
+    max-width: 20ch;
     text-align: center;
     padding-bottom: 1em;
 }
 
 .tj__container-header img {
-    max-width: 20em;
+    max-width: 18em;
 }
 
 .tj-memories {
@@ -30,13 +31,13 @@
 
 .tj-memories__header {
     padding: 0 1em;
-    font-size: var(--size-3xl);
+    font-size: var(--size-xl);
 }
 
 .tj-memories__description {
     padding: 1em;
-    font-size: var(--size-md);
-    max-width: 60ch;
+    font-size: var(--size-base);
+    max-width: 30ch;
     margin: auto;
 }
 
@@ -95,27 +96,27 @@
 
 .tj-memory__description {
     font-size: var(--size-md);
-    max-width: 60ch;
+    max-width: 30ch;
     margin: 1rem auto;
 }
 
 .tj-memory__img {
     padding: 1em 0;
     border-radius: 10px;
-    max-width: 20em;
+    max-width: 15em;
 }
 
 .tj-memory__video {
     padding: 1em 0;
     border-radius: 10px;
-    max-width: 20em;
+    max-width: 18em;
 }
 
 .tj__footer-description {
     padding: 1em;
     max-width: 30ch;
     margin: auto;
-    font-size: var(--size-xl);
+    font-size: var(--size-base);
     text-align: center;
 }
 

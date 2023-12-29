@@ -11,13 +11,15 @@
 }
 
 .wachowiak__container-header h2 {
-    font-size: var(--size-5xl);
+    font-size: var(--size-2xl);
+    max-width: 30ch;
+    margin: auto;
     text-align: center;
     padding-bottom: 1em;
 }
 
 .wachowiak__container-header img {
-    max-width: 20em;
+    max-width: 18em;
 }
 
 .wachowiak-memories {
@@ -30,13 +32,13 @@
 
 .wachowiak-memories__header {
     padding: 0 1em;
-    font-size: var(--size-3xl);
+    font-size: var(--size-xl);
 }
 
 .wachowiak-memories__description {
     padding: 1em;
-    font-size: var(--size-md);
-    max-width: 60ch;
+    font-size: var(--size-base);
+    max-width: 30ch;
     margin: auto;
 }
 
@@ -69,8 +71,8 @@
 }
 
 .wachowiak-memory__description {
-    font-size: var(--size-md);
-    max-width: 60ch;
+    font-size: var(--size-base);
+    max-width: 30ch;
     margin: 1rem auto;
 }
 
@@ -81,7 +83,7 @@
 .wachowiak-memory__img {
     padding: 1em 0;
     border-radius: 10px;
-    max-width: 20em;
+    max-width: 18em;
 }
 
 /* md */

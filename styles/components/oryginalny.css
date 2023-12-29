@@ -11,7 +11,9 @@
 }
 
 .oryginalny__container-header h2 {
-    font-size: var(--size-5xl);
+    font-size: var(--size-2xl);
+    max-width: 30ch;
+    margin: auto;
     text-align: center;
     padding-bottom: 1em;
 }
@@ -35,7 +37,7 @@
 .oryginalny-memory__img {
     padding: 1em 0;
     border-radius: 10px;
-    max-width: 20em;
+    max-width: 18em;
 }
 
 .oryginalny__footer-description {
