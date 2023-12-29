@@ -23,6 +23,12 @@
     margin: 1em;
 }
 
+.szczepan-memory__video {
+    max-width: 18em;
+    padding: 1em;
+    border-radius: 10px;
+}
+
 .szczepan__footer-description {
     padding: 1em;
     max-width: 25ch;
